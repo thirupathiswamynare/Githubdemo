@@ -1,0 +1,611 @@
+.main-container {
+    height: 120rem;
+    width: 100%;
+    background-color: #f5f8fd;
+
+    .chooseus-content-container {
+
+        h1 {
+            text-align: center;
+            color: #413e66;
+            font-size: 2.3rem;
+            font-weight: 650;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            text-align: center;
+            color: #413e66;
+            font-size: 1rem;
+            line-height: 10px;
+        }
+
+    }
+
+    .team-image {
+        height: 23rem;
+        width: 100%;
+    }
+
+    .body-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        p {
+            font-size: 1rem;
+        }
+
+        .budget-friendly-container {
+            padding-top: 1rem;
+
+            .budgetfriendlyIcon {
+                height: 2rem;
+                width: 2.5rem;
+                margin-right: 10px;
+            }
+
+            p {
+                margin-left: 3rem;
+            }
+
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .dedicated-team-container {
+            padding-top: 1rem;
+
+            img {
+                height: 2rem;
+                width: 2.5rem;
+                margin-right: 10px;
+            }
+
+            p {
+                margin-left: 3rem;
+            }
+
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+
+        .customer-centric-container {
+            padding-top: 1rem;
+
+            h2 {
+                font-size: 1.7rem;
+            }
+
+            img {
+                height: 2rem;
+                width: 2.5rem;
+                margin-right: 10px;
+            }
+
+            p {
+                margin-left: 3rem;
+            }
+        }
+    }
+
+    .girlstudyImage {
+        height: 25rem;
+        width: 90%;
+        margin-left: 3rem;
+    }
+
+    .girlstudy-content-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        h2 {
+            line-height: 2rem;
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .mobile-content-container {
+        padding-left: 5rem;
+        font-size: 1rem;
+
+        p:nth-child(2) {
+            margin-top: 2.5rem;
+        }
+
+        p:nth-child(3) {
+            margin-top: 2.5rem;
+        }
+    }
+
+    .mobileImage {
+        height: 25rem;
+        width: 90%;
+        margin-left: 3rem;
+    }
+
+    .choose-mobile-container {
+        display: none;
+    }
+
+    .mobile-chooseus-text-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .main-container {
+        height: 135rem;
+        width: 100%;
+        background-color: #f5f8fd;
+
+        .chooseus-content-container {
+
+            h1 {
+                text-align: center;
+                color: #413e66;
+                font-size: 2.3rem;
+                font-weight: 650;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            p {
+                text-align: center;
+                color: #413e66;
+                font-size: 1rem;
+                line-height: 10px;
+            }
+
+        }
+
+        .team-image {
+            height: 23rem;
+            width: 100%;
+        }
+
+        .body-container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            p {
+                font-size: 1rem;
+            }
+
+            .budget-friendly-container {
+                padding-top: 1rem;
+
+                .budgetfriendlyIcon {
+                    height: 2rem;
+                    width: 2.5rem;
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin-left: 3rem;
+                }
+
+                h2 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .dedicated-team-container {
+                padding-top: 1rem;
+
+                img {
+                    height: 2rem;
+                    width: 2.5rem;
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin-left: 3rem;
+                }
+
+                h2 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .customer-centric-container {
+                padding-top: 1rem;
+
+                h2 {
+                    font-size: 1.7rem;
+                }
+
+                img {
+                    height: 2rem;
+                    width: 2.5rem;
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin-left: 3rem;
+                }
+            }
+        }
+
+        .girlstudyImage {
+            height: 25rem;
+            width: 90%;
+            margin-left: 3rem;
+        }
+
+        .girlstudy-content-container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            h2 {
+                line-height: 2rem;
+                font-size: 1.7rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .mobile-content-container {
+            padding-left: 3rem;
+            font-size: 1rem;
+
+            p:nth-child(2) {
+                margin-top: 2.5rem;
+            }
+
+            p:nth-child(3) {
+                margin-top: 2.5rem;
+            }
+        }
+
+        .mobileImage {
+            height: 25rem;
+            width: 90%;
+            margin-left: 3rem;
+        }
+
+        .choose-mobile-container {
+            display: none;
+        }
+
+        .mobile-chooseus-text-container {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-container {
+        height: 181rem;
+        width: 100%;
+
+        .girlstudy-content-container {
+            margin-top: 2rem;
+            padding-right: 2rem;
+        }
+
+        .mobile-content-container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+
+        .mobileImage {
+            margin-top: 2rem;
+        }
+
+
+        .chooseus-content-container {
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+
+            h1 {
+                text-align: center;
+                color: #413e66;
+                font-size: 2.3rem;
+                font-weight: 650;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+        }
+
+
+        .first-row-container {
+            .ant-row {
+
+                display: unset;
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+
+                .team-image {
+                    height: 23rem;
+                    width: 100%;
+                }
+
+                .body-container {
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    .budget-friendly-container {
+                        padding-top: 1rem;
+
+                        .budgetfriendlyIcon {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+                    }
+
+                    .dedicated-team-container {
+                        padding-top: 1rem;
+
+                        img {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+                    }
+
+                    .customer-centric-container {
+                        padding-top: 1rem;
+                        margin-bottom: 8rem;
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+
+                        img {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-row-container {
+            .ant-row {
+                display: unset;
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+
+            }
+        }
+
+        .third-row-container {
+            .ant-row {
+                display: unset;
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-container {
+        height: 236rem;
+        width: 100%;
+
+        .girlstudyImage {
+            margin-left: 1rem;
+            height: 20rem;
+        }
+
+        .chooseus-content-container {
+            display: none;
+        }
+
+        .mobile-chooseus-text-container {
+            display: unset;
+            text-align: center;
+            margin-bottom: 2rem;
+
+            h1 {
+                font-weight: 650;
+                font-size: 2.5rem;
+            }
+
+            p {
+                padding-left: 1.8rem;
+                padding-right: 2rem;
+                text-align: left;
+                color: #413e66;
+
+            }
+        }
+
+        .mobileImage {
+            margin-left: 1rem;
+            height: 20rem;
+        }
+
+        .girlstudy-content-container {
+            margin-top: 2rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
+
+        .mobile-content-container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1rem;
+
+        }
+
+        .mobileImage {
+            margin-top: 2rem;
+        }
+
+
+        .chooseus-content-container {
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+            padding-left: 2.3rem;
+
+            h1 {
+                text-align: center;
+                color: #413e66;
+                font-size: 2.3rem;
+                font-weight: 650;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            p {
+                line-height: 19px;
+
+            }
+
+        }
+
+
+        .first-row-container {
+            .ant-row {
+
+                display: unset;
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+
+                .team-image {
+                    height: 23rem;
+                    width: 100%;
+                    padding-top: 2rem;
+                }
+
+                .body-container {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-top: 1rem;
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    .budget-friendly-container {
+                        padding-top: 1rem;
+
+                        .budgetfriendlyIcon {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+                    }
+
+                    .dedicated-team-container {
+                        padding-top: 1rem;
+
+                        img {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+                    }
+
+                    .customer-centric-container {
+                        padding-top: 1rem;
+                        margin-bottom: 8rem;
+
+                        h2 {
+                            font-size: 1.7rem;
+                        }
+
+                        img {
+                            height: 2rem;
+                            width: 2.5rem;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            margin-left: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-row-container {
+            .ant-row {
+                display: unset;
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+
+            }
+        }
+
+        .third-row-container {
+            .ant-row {
+                display: flex;
+                flex-direction: column-reverse;
+
+
+
+                .ant-col-12 {
+
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
